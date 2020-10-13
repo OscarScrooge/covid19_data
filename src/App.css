@@ -26,6 +26,22 @@
   color: rgb(112, 76, 182);
 }
 
+.options-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.data-chart-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.data-chart-container > .frame{
+  width: 400px;
+}
+
 @keyframes App-logo-float {
   0% {
     transform: translateY(0);

@@ -1,0 +1,20 @@
+.footer-container{
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+}
+.footer-container  > footer{
+
+    text-align: center;
+    background-color: darkgray;
+    width: 100vw;
+    font-size: smaller;
+}
+
+footer >a{
+    text-decoration: none;
+}
+
+footer p{
+    margin: 0;
+}

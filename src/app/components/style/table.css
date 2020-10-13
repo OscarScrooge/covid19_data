@@ -1,0 +1,13 @@
+.table-container{
+    justify-content: center;
+    height: 450px;
+}
+
+.table-container table{
+    margin: auto;
+    border-collapse: collapse;
+
+}
+.table-container table, th, td{
+    border: thin solid black;
+}

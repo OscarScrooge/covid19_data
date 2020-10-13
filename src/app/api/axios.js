@@ -1,0 +1,10 @@
+import axios from 'axios';
+
+/**
+ *
+ * @type {AxiosInstance}
+ */
+const instance = axios.create({
+   baseURL: 'https://covid19-api.org/api',
+});
+export default instance;
